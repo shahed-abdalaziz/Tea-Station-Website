@@ -426,3 +426,27 @@ a {
   }
 }
 /* end  contact */
+
+/*  start footer */
+.footer {
+  background: var(--mainDark);
+  text-align: center;
+  padding: 3rem;
+}
+.social-icon {
+  color: var(--mainWhite);
+  font-size: 1.3rem;
+  margin-right: 1rem;
+  transition: var(--mainTransition);
+}
+.social-icon:hover {
+  color: var(--primaryColor);
+}
+.footer-text {
+  text-transform: uppercase;
+  color: var(--mainWhite);
+  letter-spacing: var(--letterSpacing);
+  margin-top: 1rem;
+  font-size: 0.85rem;
+}
+/* end footer */
